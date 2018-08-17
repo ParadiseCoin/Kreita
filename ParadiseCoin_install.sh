@@ -9,7 +9,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/ParadiseCoin/ParadiseCoin-source-code/releases/download/1.0.1/Paradise.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='ParadiseCoin'
-COIN_PORT=47047
+COIN_PORT=45369
 RPC_PORT=47042
 
 NODEIP=$(curl -s4 api.ipify.org)
