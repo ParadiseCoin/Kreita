@@ -1,14 +1,14 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='krt.conf'
-CONFIGFOLDER='/root/.krt'
-COIN_DAEMON='krtd'
-COIN_CLI='krt-cli'
+CONFIG_FILE='ParadiseCoin.conf'
+CONFIGFOLDER='/root/.ParadiseCoin'
+COIN_DAEMON='ParadiseCoind'
+COIN_CLI='ParadiseCoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/zoldur/Kreita/releases/download/v1.2.2.3/kreita.tar.gz'
+COIN_TGZ='https://github.com/ParadiseCoin/ParadiseCoin-source-code/releases/download/1.0.1/Paradise.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Kreita'
+COIN_NAME='ParadiseCoin'
 COIN_PORT=47047
 RPC_PORT=47042
 
